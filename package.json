@@ -1,0 +1,23 @@
+{
+  "name": "virtual-db",
+  "version": "0.1.0",
+  "description": "Virtual database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vajahath/virtual-db.git"
+  },
+  "author": "Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vajahath/virtual-db/issues"
+  },
+  "homepage": "https://github.com/vajahath/virtual-db#readme",
+  "dependencies": {
+    "lme": "^1.4.2"
+  }
+}
