@@ -1,6 +1,6 @@
 // START DATABASE
 var levelup = require('levelup');
-var db = levelup('./db', {
+var db = levelup('./Illution-VD/Storage', {
 	keyEncoding: 'json',
 	valueEncoding: 'json'
 });
