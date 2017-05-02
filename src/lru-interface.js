@@ -3,12 +3,6 @@
  */
 var lme = require('lme');
 
-// START LRU-info STORAGE DATABASE
-var levelup = require('levelup');
-var lruDB = levelup('./Illution-VD/Replacement-info', {
-	keyEncoding: 'json',
-	valueEncoding: 'json'
-});
 
 var lru = {};
 
